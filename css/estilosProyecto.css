@@ -1,0 +1,306 @@
+body
+{	
+
+	margin: 0 auto; /*centrado todo el body*/
+	max-width: 1024px; /*ancho de la imagen*/
+	/*font-size: 16px
+	/*font-family: 'Lato', sans-serif;*/
+	background-color: blue;
+	
+
+}
+
+
+header
+{
+	text-align: center;
+}
+header nav 
+{
+	
+	text-align: center;
+	
+}
+header nav ul li /*estilo a la listas*/
+{
+	
+	color: white;
+	display: inline-block; /*alinear horizontal*/
+	margin: -90px 15px 0px 0px; /*separar las listas*/
+	font-family: 'Lato', sans-serif;
+
+}
+header img
+{
+	height: 100px;
+	width: 1022px;
+	margin-bottom: -70px;
+
+}
+body #inicio
+{
+	margin-top: 60px;
+
+}
+
+body #inicio #ba
+{
+
+	margin-left: 195px;
+	margin-bottom: 10px;
+}
+table
+{
+	margin-left: 105px;
+	background: #0E6CB0;
+}
+body #practicas  h1
+{
+	text-align: center;
+	margin-top: 20px;
+	background: red;
+}
+body #examenes h1
+{
+	text-align: center;
+	margin-top: 20px;
+	background: red;
+
+}
+body #proyectos h1
+{
+	text-align: center;
+	margin-top: 20px;
+	background: red;
+
+}
+body #informacion h1
+{
+		text-align: center;
+	margin-top: 20px;
+	background: red;
+
+
+}
+
+#informacion #texto
+{
+	color: black;
+	max-width: 35%;
+	margin-top: 40px;
+	padding-left: 350px;
+	padding-right: 300px;
+	font-size: 2.1em;
+	font-style: normal;
+	background: red;
+	font-weight: bold;
+}
+#practicas .practicainicio
+{
+	color: black;
+	margin-top: 40px;
+	font-weight: bold;
+	
+	
+	font-size: 2.1em;
+	background: red;
+	display: inline-block;
+	
+	
+
+}
+#examenes .exameninicio
+{
+	color: black;
+	margin-top: 40px;
+	font-weight: bold;
+	
+	
+	font-size: 2.1em;
+	background: red;
+	display: inline-block;
+	
+}
+#proyectos .proyectoinicio
+{
+	color: black;
+	margin-top: 40px;
+	font-weight: bold;
+	
+	
+	font-size: 2.1em;
+	background: red;
+	display: inline-block;
+}
+  article  #texto
+ {
+ 	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+font-size: 1.1em;
+	
+ }
+ article #texto2
+ {
+ 	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	font-size: 1.1em;
+ }
+  article #texto3
+ {
+ 	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	font-size: 1.1em;
+ }
+   article #textoex1
+ {
+ 	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	font-size: 1.1em;
+ }
+    article #textoex2
+ {
+ 	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	font-size: 1.1em;
+ }
+ article #textopro1
+ {
+ 	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	font-size: 1.1em;
+ }
+ }
+section img 
+{
+	padding-left: 10px;
+}
+section table
+{
+		font-size: 2em;
+
+}
+
+footer 
+{
+	background-color: #0E6CB0;
+	color: #ffffff;
+ 	padding: 10px  ;
+ 	line-height: 17px;
+}
+
+footer section article
+{
+	display:inline-block;
+	vertical-align: top;
+	margin-right: 80px;
+	margin-left: 80px;
+
+}
+footer .col-md-3
+{
+	margin: 0 auto;
+  	padding: 5px;
+  	padding-left: 50px;
+}
+
+
+
+/*
+footer .col-md-3
+{
+	margin: 0 auto;
+  	padding: 5px;
+  	padding-left: 50px;
+}*/
+ #informacion 
+{
+	display: none;
+}
+#proyectos
+{
+	display: none;
+}
+#examenes
+{
+	display: none;
+}
+#practicas
+{
+	display: none;
+}
+ 
+
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 640px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size:  0.5em;
+		width: 100%;
+	}
+	header img
+	{
+		width: 100%;
+		margin-bottom: 5px;
+		height: 140px;
+	}
+	
+	header nav ul li
+	{
+
+		display: block;
+		margin: 10px;
+
+	}
+	footer section article
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+
+
+	}
+
+	body #informacion article
+	{
+		display: block;
+		width: 100%;
+		font-size: 1em;
+	}
+	body #practicas article
+	{
+
+		display: block;
+		width: 100%;
+	}
+	body #examenes article
+	{
+
+		display: block;
+		width: 100%;
+	}
+	body #proyectos article
+	{
+
+		display: block;
+		width: 100%;
+	}
+	#inicio article img
+	{
+		display: block;
+		
+	}
+	
+}
